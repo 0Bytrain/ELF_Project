@@ -1,0 +1,74 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+
+# Python cache / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# IDE / Editor
+# =========================
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# Project-generated outputs
+# =========================
+outputs_air_ice/
+outputs/
+runs/
+logs/
+checkpoints/
+
+# Model / training artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+
+# TensorBoard
+events.out.tfevents.*
+
+# =========================
+# Temporary files
+# =========================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Environment variables / secrets
+# =========================
+.env
+.env.*
+!.env.example
