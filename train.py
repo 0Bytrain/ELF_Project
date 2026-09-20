@@ -1,3 +1,4 @@
+
 from __future__ import annotations
 import copy
 import json
@@ -1223,7 +1224,7 @@ def main() -> None:
         )
         plot_all_modes_final_ber_evolution(
             decision_evolutions_by_mode,
-            os.path.join(train_cfg.figure_dir, "Figure7_Overview_Final_BER_Evolution_Across_Four_Modes.png"),
+            os.path.join(train_cfg.figure_dir,  "Figure7_Overview_Final_BER_Evolution_Across_Four_Modes.png"),
             smooth_alpha=0.30,
         )
 
@@ -1231,7 +1232,6 @@ def main() -> None:
 
     print("\n训练完成。")
     print("输出目录:", os.path.abspath(train_cfg.output_dir))
-
 
 if __name__ == "__main__":
     main()
