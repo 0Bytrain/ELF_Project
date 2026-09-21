@@ -11,7 +11,6 @@
 
 
 
-
 from __future__ import annotations
 
 from pathlib import Path
@@ -33,11 +32,11 @@ from config import (
 
 
 
-EPS0 = 8.854_187_812_8e-12
-MU0 = 1.256_637_062_12e-6
+EPS0 = 8.854_187_812_8e-12  # 真空介电常数 ε0 (F/m)
+MU0 = 1.256_637_062_12e-6   # 真空磁导率 μ0 (H/m)
 
 
-DB_PER_NEPER = 20.0 / np.log(10.0)
+DB_PER_NEPER = 20.0 / np.log(10.0)  # ≈ 8.6859  ← 注意这里是 np.log
 
 
 AIR_PARAMS = {
